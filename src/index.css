@@ -1,0 +1,39 @@
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+      'Helvetica Neue', sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   background-color: #100542;
+
+}
+
+code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+.rhap_container.player {
+   background-color: #EF9F15;
+   display: flex;
+   justify-items: center;
+   padding: 0.25em 0.75em;
+   border-radius: 10px;
+}
+.rhap_stacked .rhap_controls-section {
+   margin-top: 0 !important;
+}
+
+.rhap_controls-section .rhap_volume-controls {
+   justify-content: center;
+}
+
+.rhap_controls-section .rhap_main-controls button[aria-label='Play'] svg path {
+   fill: #dddddd;
+}
+
+.rhap_controls-section .rhap_main-controls button[aria-label='Pause'] svg path {
+   fill: rgb(39, 101, 150) !important;
+}
